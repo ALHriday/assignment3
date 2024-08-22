@@ -25,10 +25,10 @@
 <body class="font-manrope">
     <!-- Header Section -->
      <header class="header flex flex-col py-4">
-        <nav class="flex justify-between items-center my-2 mx-2">
+        <nav class="flex justify-between items-center p-2">
             <div class="flex justify-center items-center gap-2">
                 <i class="fa-solid fa-arrow-right rounded-full bg-green-300 p-3 -rotate-45"></i>
-                <h1 class="font-bold text-4xl">Rinterio</h1>
+                <h1 class="font-bold text-3xl">Rinterio</h1>
             </div>
             <ul class="hidden lg:flex justify-center items-center text-xl">
                 <li class="px-3 py-2 font-bold">Home</li>
@@ -63,7 +63,7 @@
 
         <!-- About us Section -->
          <section class="bg-slate-100 px-4 py-24 flex flex-col lg:flex-row gap-8 lg:gap-0">
-            <div class="w-full md:w-4/6 lg:w-5/12 flex flex-col gap-4 mx-auto">
+            <div class="w-full md:w-5/6 lg:w-5/12 flex flex-col gap-4 mx-auto">
                 <div class="flex flex-col gap-4 relative">
                     <img class="w-32 absolute -top-14 -left-6" src="assets/Vector.png" alt="">
                     <button class="rounded-full p-3 w-40 bg-white"><i class="fa-solid fa-arrow-right pr-3"></i> About us</button>
@@ -71,28 +71,30 @@
                     <p>The barn house captivates with its blend of rustic charm and 
                     modern sophistication, featuring weathered wood, sleek metal accents.</p>
                 </div>
-                <div class="flex bg-white lg:w-full rounded-xl p-4 justify-center items-center gap-4">
-                    <div class="w-1/5">
-                        <img src="assets/commercial.png" alt="">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
+                    <div class="flex bg-white lg:w-full rounded-xl p-4 justify-center items-center gap-4">
+                        <div class="w-1/5">
+                            <img src="assets/commercial.png" alt="">
+                        </div>
+                        <div class="w-4/5">
+                            <h1 class="text-2xl font-bold pb-1 md:pb-2">Commercial</h1>
+                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
                     </div>
-                    <div class="w-4/5">
-                        <h1 class="text-2xl font-bold pb-1 md:pb-2">Commercial</h1>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
-                    </div>
-                </div>
-                <div class="flex bg-white lg:w-full rounded-xl p-4 justify-center items-center gap-4">
-                    <div class="w-1/5">
-                        <img src="assets/commercial.png" alt="">
-                    </div>
-                    <div class="w-4/5">
-                        <h1 class="text-2xl font-bold pb-1 md:pb-2">Commercial</h1>
-                        <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                    <div class="flex bg-white lg:w-full rounded-xl p-4 justify-center items-center gap-4">
+                        <div class="w-1/5">
+                            <img src="assets/commercial.png" alt="">
+                        </div>
+                        <div class="w-4/5">
+                            <h1 class="text-2xl font-bold pb-1 md:pb-2">Commercial</h1>
+                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
                     </div>
                 </div>
                 
             </div>
-            <div class="w-full md:w-4/6 lg:w-5/12 mx-auto flex justify-center items-center">
-                <img src="assets/Rectangle.png" alt="">
+            <div class="w-full md:w-5/6 lg:w-5/12 mx-auto flex justify-center items-center">
+                <img class="w-full h-full" src="assets/Rectangle.png" alt="">
             </div>
          </section>
 
@@ -107,6 +109,7 @@
                 <p>The barn house captivates with its blend of rustic charm and modern sophistication, 
                 featuring weathered wood, sleek metal accents.</p>
             </div>
+            <!-- Work Process Card section -->
             <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 <div class="flex flex-col gap-4 p-4 bg-pink-300 rounded-xl">
                     <div>
@@ -148,6 +151,62 @@
                         featuring weathered wood, sleek metal accents</p>
                     </div>
                 </div>
+            </section>
+         </section>
+
+         <!--Our Latest Portfolio Section  -->
+
+         <section class="flex flex-col py-14 px-8 gap-6">
+            <div class="flex flex-col justify-center items-center text-center">
+                <button class="bg-green-200 p-2 px-4 border rounded-full font-bold"><i class="fa-solid fa-arrow-right p-2 mr-2"></i>Explore our Latest works</button>
+                <h1 class="text-5xl font-bold py-4">Our Latest Portfolio</h1>
+                <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br>
+                featuring weathered wood, sleek metal accents.</p>
+            </div>
+
+            <!-- Portfolio Section Card Part -->
+
+            <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-8 gap-8">
+                <div class="col-span-1 md:col-span-2 lg:col-span-5 order-1 flex flex-col md:flex-row justify-center items-center gap-4 border rounded-xl p-4">
+                    <div class="w-full md:w-2/5">
+                        <img class="w-full h-full" src="assets/img1.png" alt="">
+                    </div>
+                    <div class="w-full md:w-3/5 flex flex-col gap-2 justify-center items-start">
+                        <h1 class="text-xl font-bold">Commercial</h1>
+                        <p>The barn house captivates with its blend of rustic charm
+                        and modern. The barn house captivates with its blend of
+                        rustic charm and modern .</p>
+                        <button class="font-bold">View Details<i class="fa-solid fa-arrow-right rounded-full bg-green-500 p-2 ml-2 -rotate-45"></i></button>
+                    </div>
+                </div>
+
+                <div class="col-span-1 lg:col-span-3 order-2 border rounded-xl flex justify-center items-center">
+                    <img class="p-4 w-full h-full" src="assets/img2.png" alt="">
+                </div>
+
+                <div class="col-span-1 lg:col-span-2 order-3 border rounded-xl flex justify-center items-center">
+                    <img class="p-4 w-full h-full" src="assets/img3.png" alt="">
+                </div>
+
+                <div class="col-span-1 md:col-span-2 lg:col-span-4 order-4 flex flex-col md:flex-row justify-center items-center gap-4 border rounded-xl p-4">
+                    <div class="w-full md:w-1/2">
+                        <img class="w-full h-full" src="assets/img4.png" alt="">
+                    </div>
+                    <div class="w-full md:w-1/2 flex flex-col gap-2 justify-center items-start">
+                        <h1 class="text-xl font-bold">Commercial</h1>
+                        <p>The barn house captivates with its blend of rustic charm
+                        and modern.</p>
+                        <button class="font-bold">View Details<i class="fa-solid fa-arrow-right rounded-full bg-green-500 p-2 ml-2 -rotate-45"></i></button>
+                    </div>
+                </div>
+
+                <div class="col-span-1 lg:col-span-2 order-5 border rounded-xl flex justify-center items-center">
+                    <img class="p-4 w-full h-full" src="assets/img5.png" alt="">
+                </div>
+                <div class="col-span-1 lg:col-span-2 order-5 lg:hidden border rounded-xl flex justify-center items-center">
+                    <img class="p-4 w-full h-full" src="assets/img3.png" alt="">
+                </div>
+
             </section>
          </section>
 
