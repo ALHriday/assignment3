@@ -1,3 +1,8 @@
 .header{
     background: linear-gradient(180deg, rgb(226, 226, 226) , rgba(255, 255, 255, 0) 100%);
 }
+.bg-input-section{
+    background: url("/assets/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
